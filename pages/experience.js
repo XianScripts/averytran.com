@@ -33,7 +33,7 @@ export default function Experience() {
         <div className="bg-white shadow-md rounded-lg p-6 mb-6">
           <h2 className="text-3xl font-semibold">Data Analyst</h2>
           <p className="text-gray-600">PureCycle Technologies - Internship | May 2022 - Aug 2022</p>
-          <p>Improved key areas for the company’s operational processes through exceptional industry research, digestible reports, and strong visualization tools for advanced analysis and innovation.</p>
+          <p>Improved key areas for the company&apos;s operational processes through exceptional industry research, digestible reports, and strong visualization tools for advanced analysis and innovation.</p>
           <ul className="list-disc list-inside text-left mt-2">
             <li>Constructed 2 databases (MRF Masterlist, Post-Consumer Recyclers) in Excel to improve business strategies, vendor relations, and market forecasting.</li>
             <li>Contacted 700+ material recovery sites and sustainability vendors to establish rapport, capture YoY operation data, and compile them into dynamic data trackers.</li>
@@ -48,7 +48,7 @@ export default function Experience() {
           <ul className="list-disc list-inside text-left mt-2">
             <li>Analyzed and summarized dozens of recent grants, environmental initiatives, and policy changes for team members to take advantage of in client meetings and sale proposals.</li>
             <li>Drafted 50+ word documents compiling research of polluted areas, affected citizens, and raw data.</li>
-            <li>Collaborated with marketing team to develop new ecoSPEARS website, draft executives’ biographies, mission statements, client technology solutions, and trial all links and images before publishing.</li>
+            <li>Collaborated with marketing team to develop new ecoSPEARS website, draft executives&apos; biographies, mission statements, client technology solutions, and trial all links and images before publishing.</li>
           </ul>
         </div>
       </main>
