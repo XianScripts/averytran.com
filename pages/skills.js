@@ -1,33 +1,46 @@
-// pages/skills.js
-import Head from 'next/head'
-import Header from '../components/Header'
+import Head from 'next/head';
+import Header from '../components/Header';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDatabase, faChartBar, faCode } from '@fortawesome/free-solid-svg-icons';
 
 export default function Skills() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center">
+    <>
       <Head>
-        <title>Skills - Avery Tran</title>
+        <title>Avery Tran - Skills</title>
         <meta name="description" content="Skills of Avery Tran" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Header />
-
-      <main className="flex flex-col items-center justify-center flex-1 text-center p-4">
-        <h1 className="text-4xl font-bold mt-8">Skills</h1>
-        <ul className="mt-3 text-2xl max-w-4xl space-y-2">
-          <li>R</li>
-          <li>Python</li>
-          <li>SQL</li>
-          <li>SAS</li>
-          <li>PowerBI</li>
-          <li>Tableau</li>
-        </ul>
-      </main>
-
-      <footer className="w-full bg-gray-800 text-white p-4 flex justify-center">
-        <p>&copy; 2024 Avery Tran</p>
-      </footer>
-    </div>
-  )
+      <div className="min-h-screen flex flex-col items-center justify-center bg-white text-black">
+        <h1 className="text-5xl font-bold mb-8">Skills</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="flex flex-col items-center">
+            <FontAwesomeIcon icon={faDatabase} size="4x" className="mb-4 text-blue-500" />
+            <p className="text-xl font-semibold">R</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <FontAwesomeIcon icon={faCode} size="4x" className="mb-4 text-yellow-500" />
+            <p className="text-xl font-semibold">Python</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <FontAwesomeIcon icon={faDatabase} size="4x" className="mb-4 text-green-500" />
+            <p className="text-xl font-semibold">SQL</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <FontAwesomeIcon icon={faDatabase} size="4x" className="mb-4 text-red-500" />
+            <p className="text-xl font-semibold">SAS</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <FontAwesomeIcon icon={faChartBar} size="4x" className="mb-4 text-purple-500" />
+            <p className="text-xl font-semibold">PowerBI</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <FontAwesomeIcon icon={faChartBar} size="4x" className="mb-4 text-pink-500" />
+            <p className="text-xl font-semibold">Tableau</p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }

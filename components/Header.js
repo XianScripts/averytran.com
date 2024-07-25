@@ -1,11 +1,12 @@
-// components/Header.js
-import Link from 'next/link'
+import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="w-full bg-gray-800 text-white p-4">
-      <nav className="container mx-auto flex justify-between items-center">
-        <h1 className="text-3xl font-bold">Avery Tran</h1>
+    <header className="w-full bg-gray-800 text-white p-4 flex justify-between items-center">
+      <div className="text-lg font-bold">
+        <Link href="/">Avery Tran</Link>
+      </div>
+      <nav>
         <ul className="flex space-x-4">
           <li><Link href="/">Home</Link></li>
           <li><Link href="/about">About</Link></li>
@@ -15,6 +16,5 @@ export default function Header() {
         </ul>
       </nav>
     </header>
-  )
+  );
 }
-
