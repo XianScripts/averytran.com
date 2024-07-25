@@ -23,12 +23,12 @@ export default function Experience() {
         <div className="bg-white shadow-md rounded-lg p-6 mb-6">
           <h2 className="text-3xl font-semibold">Mobalytics Remote Extern</h2>
           <p className="text-gray-600">Extern - Internship | May 2024 - Jun 2024</p>
-          <p>Data Analyst for Extern's MOBALytics May-June 2024.</p>
+          <p>Data Analyst for Extern&apos;s MOBALytics May-June 2024.</p>
         </div>
         <div className="bg-white shadow-md rounded-lg p-6 mb-6">
           <h2 className="text-3xl font-semibold">Financial Analyst</h2>
           <p className="text-gray-600">Blackstone PortCo - Simply Self Storage - Internship | Jun 2023 - Aug 2023</p>
-          <p>Contributed to PSA's $2.2 billion acquisition of Blackstone's BREIT through detailed reforecasting, leading to a 36% IRR in under 3 years.</p>
+          <p>Contributed to PSA&apos;s $2.2 billion acquisition of Blackstone&apos;s BREIT through detailed reforecasting, leading to a 36% IRR in under 3 years.</p>
         </div>
         <div className="bg-white shadow-md rounded-lg p-6 mb-6">
           <h2 className="text-3xl font-semibold">Data Analyst</h2>
