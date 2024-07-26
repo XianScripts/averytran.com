@@ -16,7 +16,7 @@ export default function Contact() {
       <main className="flex flex-col items-center justify-center flex-1 text-center p-4">
         <h1 className="text-4xl font-bold mt-8">Contact</h1>
         <p className="mt-3 text-2xl">
-          You can reach me via email at <a href="mailto:averytran@gmail.com" className="text-blue-500">averytran@gmail.com</a>
+          You can reach me via email at <a href="mailto:averyjtran@gmail.com" className="text-blue-500">averyjtran@gmail.com</a>
         </p>
       </main>
 
